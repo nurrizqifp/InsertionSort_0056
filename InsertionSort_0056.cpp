@@ -34,11 +34,10 @@ while (true)
 
 void insertionSort()
 { // Procedure Insertionsort
-
+    int temp; // Membuat variable data temporary atau penyimpanan sementara
+    int j, i; // Membuat variable j sebagai penanda
 }
 
-int temp; // Membuat variable data temporary atau penyimpanan sementara
-int j, i; // Membuat variable j sebagai penanda
 
 void display()
 {
