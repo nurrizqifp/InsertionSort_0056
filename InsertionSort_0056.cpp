@@ -20,6 +20,10 @@ while (true)
             cout << "\nArray yang anda masukkan maksimal 20 Elemen.\n"; // Menampilkan pesan jika data lebih dari 20
         }
     }
+    cout << endl; // Membuat jarak perbaris program
+    cout << "====================="; // Membuat tampilan susunan data elemen array
+    cout << "Masukkan Elemen Array" << endl;
+    cout << "=====================";
 }
 
 void insertionSort()
