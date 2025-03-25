@@ -24,6 +24,12 @@ while (true)
     cout << "====================="; // Membuat tampilan susunan data elemen array
     cout << "Masukkan Elemen Array" << endl;
     cout << "=====================";
+
+    for (int i = 0; i < n; i++) // Menggunakan perulangan for untuk menyimpan data pada array
+    {
+        cout << "Data ke-" << (i + 1) << ": "; // Memasukkan atau menginputkan nilai data n
+        cin >> arr[i]; // Menyimpan nilai data n kedalam array arr
+    }
 }
 
 void insertionSort()
